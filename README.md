@@ -13,7 +13,7 @@ conda activate envname
 ```
 
 ```
-pip install tensorflow opencv-python numpy matplotlib streamlit
+pip install tensorflow opencv-python numpy matplotlib
 ```
 
 ## Datasets
@@ -38,7 +38,20 @@ pip install tensorflow opencv-python numpy matplotlib streamlit
 
 ## Testing Result
 
-Test Accuracy: 92.24%
+### Test Accuracy: 92.24%
+
+![alt text](https://github.com/Sakadyk/The-Deep-Roy/blob/main/Images/test_acc.png "Testing Accuracy")
+
+### Confusion Matrix
+
+![alt text](https://github.com/Sakadyk/The-Deep-Roy/blob/main/Images/cm.png "Confusion Matrix")
+
+### Classification Report
+
+![alt text](https://github.com/Sakadyk/The-Deep-Roy/blob/main/Images/cr.png "Classification Report")
+
+### Visualization
+
 ![alt text](https://github.com/Sakadyk/The-Deep-Roy/blob/main/Images/test_result.png "Testing Visualization")
 
 ## Streamlit
