@@ -61,7 +61,7 @@ def classify_video(file):
         predictions.append(prediction[0][0])
 
     video_capture.release()
-    cv2.destroyAllWindows()
+    # cv2.destroyAllWindows()
 
     avg_prediction_real = np.mean(predictions)
     avg_prediction_fake = 1 - avg_prediction_real
