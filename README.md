@@ -56,4 +56,15 @@ pip install tensorflow opencv-python numpy matplotlib
 
 ## Streamlit
 
-`TBD`
+*To run the Streamlit application, use a local machine (conda) after cloning this repo.
+
+1. Enter the **StreamlitApp** directory
+	```shell
+	cd The-Deep-Roy\StreamlitApp
+	```
+2. Run **app.py**
+	```shell
+	streamlit run app.py
+	```
+
+Alternatively, you can access the app directly by visiting the [The Deep Roy](https://thedeeproy.streamlit.app/) page.
