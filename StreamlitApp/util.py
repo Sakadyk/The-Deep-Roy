@@ -7,7 +7,7 @@ import os
 import tempfile
 
 # Load your trained model (make sure the path is correct)
-model = tf.keras.models.load_model('./model/model_pi_roy.h5')
+model = tf.keras.models.load_model('./StreamlitApp/model/model_pi_roy.h5')
 
 def classify_image(file):
     img = Image.open(file)
